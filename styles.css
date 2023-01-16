@@ -34,6 +34,10 @@ body {
     justify-content: space-between;
 }
 
+.hard-skills{
+    width: 40%;
+}
+
 .resume {
     margin: 50px auto;
     border: 1px solid #f5f5f5;
@@ -46,6 +50,14 @@ body {
     border-bottom: 3px solid var(--border-color);
     padding-bottom: 30px;
     margin-bottom: 15px;
+}
+
+.soft-skills{
+    text-align: justify;
+}
+
+.skills__header_block{
+    color: var(--secondary-text-color);
 }
 
 @media screen and (max-width: 576px) {
@@ -166,6 +178,7 @@ body {
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+    margin-bottom: 1em;
 }
 
 .experiences {
